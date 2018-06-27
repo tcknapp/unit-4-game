@@ -1,0 +1,47 @@
+body {
+    
+}
+
+header {
+    color: pink;
+    border: solid teal 2px;
+    padding: 2px;
+};
+
+
+.instructions {
+    border: solid teal 2px;
+    padding: 2px;
+
+}
+
+.result {
+    padding: 6px;
+    border: dashed pink 2px;
+    margin: 6px;
+    width: 400px;
+}
+
+
+.crystals {
+    padding: 6px;
+}
+
+#purple {
+    border: solid purple 1px;
+}
+
+#green {
+    border: solid darkgreen 1px;
+
+}
+
+#white {
+    border: solid black 1px;
+
+}
+
+#blue {
+    border: solid darkblue 1px;
+
+}

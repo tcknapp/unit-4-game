@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Crystals Collector</title>
+    <link rel="stylesheet" type= "reset/css" href="assets/css/reset.css">
     <link rel="stylesheet" type= "text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -24,25 +26,27 @@
 
     <div id="game">
    <!--random number box-->
-   <div id="cnumber"></div>
+   <h3>Crystals Random Number:</h3>
+   <div id="randomSpace">
+    </div>
 
    <!--Wins/losses-->
    <div class="result">
-       <div id="wins">Wins:</div>
-       <div id="losses">Losses:</div>
+      Wins:<div id="winCount"></div>
+      Losses:<div id="lossCount"></div>
    </div>
 
    <!--Crystals-->
-   <img src="" id="" class="crystal">
-   <img src="" id="" class="crystal">
-   <img src="" id="" class="crystal">
-   <img src="" id="" class="crystal">
-
+   <div class ="crystals">
+        <img src="https://github.com/tcknapp/unit-4-game/blob/master/assets/images/superthumb-1.png?raw=true" id="purple"  height= "150px" width= "150px">
+        <img src="https://github.com/tcknapp/unit-4-game/blob/master/assets/images/superthumb-2.png?raw=true" id="green"  height= "150px" width= "150px">
+        <img src="https://github.com/tcknapp/unit-4-game/blob/master/assets/images/superthumb-3.png?raw=true" id="white"  height= "150px" width= "150px">
+        <img src="https://github.com/tcknapp/unit-4-game/blob/master/assets/images/superthumb.png?raw=true" id="blue"  height= "150px" width= "150px">
+    </div>
 
    <!--your total score is-->
-   <div class="score">
-       <h2>Your score:</h2>
-   </div>
+   <h2>Your score:</h2>
+    <div id="scoreSpace"></div>
 
    <!--Score adder-->
    <div class="addscore">
