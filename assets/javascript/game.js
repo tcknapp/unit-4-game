@@ -22,7 +22,7 @@ $("#lossCount").text(losses);
 $("scoreSpace").text(userTotal);
 
 // displays random number
-$("#randomSpace").text(userTotal);
+$("#randomSpace").text(randomNumber);
 
 // for game reset
 function reset(){
@@ -46,7 +46,7 @@ function winning(){
     function losing(){
     losses++;
     $('#lossCount').text(losses);
-    reset()
+    reset();
      }
 
 // crystal clicks
@@ -66,7 +66,7 @@ $('#purple').on('click', function() {
             wins++;
             $('#winCount').text(wins);
             console.log("you won");
-            alert("You won!");
+            alert("You're a Collector!");
             reset();
         }
 
@@ -86,7 +86,7 @@ $('#green').on('click', function() {
             wins++;
             $('#winCount').text(wins);
             console.log("you won");
-            alert("You won!");
+            alert("You're a Collector!");
             reset();
         }
 
@@ -107,7 +107,7 @@ $('#green').on('click', function() {
                 wins++;
                 $('#winCount').text(wins);
                 console.log("you won");
-                alert("You won!");
+                alert("You're a Collector!");
                 reset();
             }
 
@@ -128,7 +128,7 @@ $('#green').on('click', function() {
                 wins++;
                 $('#winCount').text(wins);
                 console.log("you won");
-                alert("You won!");
+                alert("You're a Collector!");
                 reset();
             }
 

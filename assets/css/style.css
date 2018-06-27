@@ -1,5 +1,5 @@
 body {
-    
+
 }
 
 header {
@@ -10,9 +10,13 @@ header {
 
 
 .instructions {
-    border: solid teal 2px;
-    padding: 2px;
 
+
+}
+
+p {
+    border: solid teal 2px;
+    padding: 4px;
 }
 
 .result {
@@ -44,4 +48,14 @@ header {
 #blue {
     border: solid darkblue 1px;
 
+}
+
+#randomSpace {
+    font-size: 50px;
+    color: teal;
+}
+
+#scoreSpace {
+    font-size: 50px;
+    color: purple;
 }
