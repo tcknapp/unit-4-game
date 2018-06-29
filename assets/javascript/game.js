@@ -23,6 +23,7 @@ $("scoreSpace").text(userTotal);
 
 // displays random number
 $("#randomSpace").text(randomNumber);
+$("#scoreSpace").text(0);
 
 // for game reset
 function reset(){

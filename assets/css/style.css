@@ -4,8 +4,8 @@ body {
 
 header {
     color: pink;
-    border: solid teal 2px;
-    padding: 2px;
+
+
 };
 
 
@@ -17,12 +17,13 @@ header {
 p {
     border: solid teal 2px;
     padding: 4px;
+    width: 610px;
 }
 
 .result {
     padding: 6px;
     border: dashed pink 2px;
-    margin: 6px;
+    margin: 4px;
     width: 400px;
 }
 
