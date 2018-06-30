@@ -61,7 +61,7 @@ $('#purple').on('click', function() {
             console.log("you lost");
             reset();
         }
-    if (userTotal == randomNumber) {
+    if (userTotal === randomNumber) {
             wins++;
             $('#winCount').text(wins);
             console.log("you won");
@@ -80,7 +80,7 @@ $('#green').on('click', function() {
             console.log("you lost");
             reset();
         }
-    if (userTotal == randomNumber) {
+    if (userTotal === randomNumber) {
             wins++;
             $('#winCount').text(wins);
             console.log("you won");
@@ -100,7 +100,7 @@ $('#green').on('click', function() {
                 console.log("you lost");
                 reset();
             }
-        if (userTotal == randomNumber) {
+        if (userTotal === randomNumber) {
                 wins++;
                 $('#winCount').text(wins);
                 console.log("you won");
@@ -120,7 +120,7 @@ $('#green').on('click', function() {
                 console.log("you lost");
                 reset();
             }
-        if (userTotal == randomNumber) {
+        if (userTotal === randomNumber) {
                 wins++;
                 $('#winCount').text(wins);
                 console.log("you won");
