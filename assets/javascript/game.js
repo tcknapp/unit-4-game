@@ -37,7 +37,7 @@ function reset(){
     $('#scoreSpace').text(userTotal);
     }
 
-// function for win/losses
+//  for wins/losses
 function winning(){
     wins++; 
     $('#winCount').text(wins);
@@ -51,7 +51,6 @@ function winning(){
      }
 
 // crystal clicks
-
 $('#purple').on('click', function() {
     userTotal += purpleCrystal;
     $('#scoreSpace').text(userTotal); 
