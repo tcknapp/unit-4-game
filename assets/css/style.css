@@ -5,14 +5,14 @@ body {
 header {
     color: pink;
 
-
-};
+}
 
 
 .instructions {
 
 
 }
+
 
 p {
     border: solid teal 2px;
@@ -23,7 +23,7 @@ p {
 .result {
     padding: 6px;
     border: dashed pink 2px;
-    margin: 4px;
+    margin: 6px;
     width: 400px;
 }
 

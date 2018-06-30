@@ -54,7 +54,6 @@ function winning(){
 
 $('#purple').on('click', function() {
     userTotal += purpleCrystal;
-    console.log("New total= " + userTotal);
     $('#scoreSpace').text(userTotal); 
     if (userTotal > randomNumber) {
             losses++;
@@ -74,7 +73,6 @@ $('#purple').on('click', function() {
 
 $('#green').on('click', function() {
     userTotal += greenCrystal;
-    console.log("New total= " + userTotal);
     $('#scoreSpace').text(userTotal); 
     if (userTotal > randomNumber) {
             losses++;
@@ -95,7 +93,6 @@ $('#green').on('click', function() {
 
     $('#white').on('click', function() {
         userTotal += whiteCrystal;
-        console.log("New total= " + userTotal);
         $('#scoreSpace').text(userTotal); 
         if (userTotal > randomNumber) {
                 losses++;
@@ -116,7 +113,6 @@ $('#green').on('click', function() {
 
     $('#blue').on('click', function() {
         userTotal += blueCrystal;
-        console.log("New total= " + userTotal);
         $('#scoreSpace').text(userTotal); 
         if (userTotal > randomNumber) {
                 losses++;
