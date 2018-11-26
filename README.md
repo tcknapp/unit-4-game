@@ -38,6 +38,6 @@ Each crystal should have a random hidden value between 1 - 12.
 
 - - -
 
-## Technologies Used
+### Technologies Used
 * jQuery
 * HTML/CSS
